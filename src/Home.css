@@ -1,0 +1,38 @@
+.home__section {
+  display: flex;
+  padding: 30px;
+}
+.hosting__section {
+  position: relative;
+  margin: 40px 80px;
+}
+.hosting__section > img {
+  width: 1200px;
+  height: 400px;
+  border-radius: 15px;
+}
+.hosting__content {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  color: white;
+}
+.hosting__content > h1 {
+  font-weight: 550;
+  font-size: 40px;
+}
+.hosting__content button {
+  padding: 17px 25px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  color: gray;
+  border-color: white;
+  cursor: pointer;
+}
+.hosting__content button:hover {
+  color: white;
+  background-color: gray;
+  border-color: none;
+  transform: scale(1.05);
+}
